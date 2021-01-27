@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-color: #282828;
+}
+
+li{
+    color: #ebdbb2;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+input, button{
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+input{
+    margin-right: 10px;
+    text-align: center;
+}
+
+#quanti{
+    width: 50px;
+}
