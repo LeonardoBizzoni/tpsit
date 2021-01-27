@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title></title>
+</head>
+<body name="body">
+    <ul>
+        <li onclick="mostraRoba(this)" class="arancio">Valle d'Aosta</li>
+        <li onclick="mostraRoba(this)" class="arancio">Piemonte</li>
+        <li onclick="mostraRoba(this)" class="arancio">Lombardia</li>
+        <li onclick="mostraRoba(this)" class="arancio">Trentino - Trento</li>
+        <li onclick="mostraRoba(this)" class="rosso">Trentino - Bolzano</li>
+        <li onclick="mostraRoba(this)" class="arancio">Veneto</li>
+        <li onclick="mostraRoba(this)" class="arancio">Friuli-Venezia Giulia</li>
+        <li onclick="mostraRoba(this)" class="arancio">Linguria</li>
+        <li onclick="mostraRoba(this)" class="arancio">Emilia-Romagna</li>
+        <li onclick="mostraRoba(this)" class="giallo">Toscana</li>
+        <li onclick="mostraRoba(this)" class="arancio">Marche</li>
+        <li onclick="mostraRoba(this)" class="arancio">Umbria</li>
+        <li onclick="mostraRoba(this)" class="arancio">Lazio</li>
+        <li onclick="mostraRoba(this)" class="arancio">Abruzzo</li>
+        <li onclick="mostraRoba(this)" class="giallo">Molise</li>
+        <li onclick="mostraRoba(this)" class="giallo">Campania</li>
+        <li onclick="mostraRoba(this)" class="giallo">Basilicata</li>
+        <li onclick="mostraRoba(this)" class="arancio">Puglia</li>
+        <li onclick="mostraRoba(this)" class="arancio">Calabria</li>
+        <li onclick="mostraRoba(this)" class="rosso">Sicilia</li>
+        <li onclick="mostraRoba(this)" class="arancio">Sardegna</li>
+    </ul>
+    <h2 id="nomeRegione"></h2>
+    <p id="giallo">
+    <b>Zona gialla</b><br>
+
+    Coprifuoco dalle 22:00 alle 5:00
+    Fino al 15 Febbraio sono vietati gli spostamenti in entrata ed in uscita tra Regioni diverse o Province Autonome. Sempre consentito il rientro alla propria residenza, domicilio o abitazione
+    Dal 16 gennaio, indipendentemente dal colore della zona in cui ci si trovi, è possibile il rientro presso le seconde case, solo se comprovato da un titolo con data certa anteriore al 14 gennaio 2021. La casa deve essere abitata solo da persone appartenenti al nucleo familiare dell’avente titolo. Necessario presentare copia del titolo di godimento con data certa o, eventualmente, autocertificazione. La falsità di quanto dichiarato costituisce reato
+    Autocertificazione sempre richiesta dalle 22:00 alle 05:00 (ore di coprifuoco) e per spostamenti verso altra Regione o Provincia Autonoma giustificati da motivi di salute, necessità o lavoro
+    All'interno della propria Regione, è fortemente raccomandato di non spostarsi, dalle 5:00 alle 22:00, salvo che per esigenze di lavoro, studio, salute, necessità e per usufruire di servizi non sospesi
+    Consentito lo spostamento verso una sola abitazione privata (visite ad amici e parenti), all'interno della propria Regione, una sola volta al giorno fra le 5.00 e le 22.00, nei limiti di due persone. Sono esclusi dal conteggio minori di anni 14, disabili o non autosufficienti conviventi
+    Ricongiungimento tra partner consentito presso il luogo corrispondente a quello di residenza, domicilio o abitazione della coppia, escluse seconde case e hotel (eventualmente anche in un'altra Regione)
+    Chiusi palestre, piscine, centri natatori, centri benessere, centri termali, fatta salva l'erogazione di prestazioni riabilitative o terapeutiche. Restano aperti centri e circoli sportivi solo per attività sportiva di base all'aperto
+    Chiusi teatri e cinema
+    Chiusi sale giochi, sale scommesse, sale bingo e casinò
+    Chiuse le università salvo alcune attività per le matricole e per i laboratori
+    Didattica a distanza almeno al 50% e fino ad un massimo del 75% per le scuole superiori, salvo diversa ordinanza regionale
+    Didattica in presenza con obbligo mascherina per scuole elementari e medie
+    Chiusi i centri commerciali nei giorni festivi e prefestivi
+    Sempre aperte farmacie, parafarmacie, punti vendita di generi alimentari, tabacchi ed edicole
+    Consentita assistenza a parenti o amici non autosufficienti, nel rispetto dei protocolli anti-covid
+    Parrucchieri aperti
+    Centri estetici aperti
+    Negozi aperti
+    Chiese aperte e funzioni religiose consentite nel rispetto dei protocolli sottoscritti dal governo
+    Restano aperte le industrie ed i cantieri
+    Capienza massima dei mezzi pubblici al 50%
+    Smart working ove possibile
+    Vietate feste al chiuso, sagre, fiere ed eventi analoghi
+    Vietati sport di squadra amatoriali
+    Consentiti sport individuali all'aperto
+    Chiusi impianti sciistici fino al 15 Febbraio
+    </p>
+    <p id="arancio">
+    <b>Zona arancione</b><br>
+
+    Autocertificazione sempre richiesta dalle 22:00 alle 05:00 (ore di coprifuoco) e per spostamenti fuori dal proprio Comune
+    Vietati spostamenti fuori Regione
+    All'esterno del proprio Comune, è vietato qualsiasi spostamento salvo che per comprovate esigenze di lavoro, studio, salute, necessità e per usufruire dei servizi non sospesi e non disponibili all'interno del proprio Comune
+    All'interno del proprio Comune, è fortemente raccomandato di non spostarsi, dalle 5:00 alle 22:00, salvo che per esigenze di lavoro, studio, salute, necessità e per usufruire di servizi non sospesi
+    Consentito lo spostamento verso una sola abitazione privata (visite ad amici e parenti), all'interno del proprio Comune, una sola volta al giorno fra le 5.00 e le 22.00, nei limiti di due persone. Sono esclusi dal conteggio minori di anni 14, disabili o non autosufficienti conviventi
+    Nei piccoli Comuni con max 5mila abitanti saranno consentiti spostamenti in un raggio di 30km (eventualmente anche in un'altra Regione) con divieto di spostamento nei capoluoghi di provincia
+    Consulta l'elenco Comuni con meno di 5mila abitanti
+    Consentita attività motoria solo nel proprio Comune
+    Possibile recarsi in un altro Comune (nella stessa Regione) per attività sportiva solo qualora questa non sia disponibile nel proprio Comune (per esempio, nel caso in cui non ci siano campi da tennis), oppure nel caso in cui questa comporti uno spostamento (per esempio corsa o bicicletta), purché tale spostamento resti funzionale unicamente all’attività sportiva stessa e la destinazione finale coincida con il Comune di partenza
+    Ristoranti/locali aperti solo per asporto dalle 5:00 alle 22:00. Consegna a domicilio sempre consentita
+    È possibile praticare l’attività venatoria o la pesca dilettantistica nel proprio Comune
+    </p>
+    <p id="rosso">
+    <b>Zona rossa</b><br>
+
+    Autocertificazione sempre richiesta per qualsiasi spostamento e a qualsiasi ora
+    Vietati gli spostamenti interni al Comune, salvo comprovate esigenze
+    Consentito lo spostamento verso una sola abitazione privata (visite ad amici e parenti), all'interno del proprio Comune, una sola volta al giorno fra le 5.00 e le 22.00, nei limiti di due persone. Sono esclusi dal conteggio minori di anni 14, disabili o non autosufficienti conviventi
+    Nei piccoli Comuni con max 5mila abitanti saranno consentiti gli spostamenti verso una sola abitazione privata, una sola volta al giorno fra le 5.00 e le 22.00, in un raggio di 30km (eventualmente anche in un'altra Regione) con divieto di spostamento nei capoluoghi di Provincia
+    Consulta l'elenco Comuni con meno di 5mila abitanti
+    Consentita attività motoria solo nei pressi della propria abitazione in forma individuale. Sospese anche le attività svolte nei centri sportivi all'aperto
+    Consentito svolgere attività sportiva esclusivamente nell'ambito del territorio del proprio Comune. Possibile recarsi in un altro Comune solo nel caso in cui l'attività sportiva comporti uno spostamento (per esempio corsa o bicicletta), purché tale spostamento resti funzionale unicamente all’attività sportiva stessa e la destinazione finale coincida con il Comune di partenza
+    Sospese le attività commerciali al dettaglio, ad eccezione della vendita di generi alimentari e di prima necessità individuati nell'allegato 23 del decreto 14 Gennaio 2021 n.2
+    Chiusi i mercati
+    Chiusi i centri estetici
+    </p>
+
+</body>
+<script src="./assets/js/index.js"></script>
+</html>
