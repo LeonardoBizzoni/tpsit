@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Main.AppTest" time="0.02" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Main.AppTest" time="0.016" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/openjdk-bin-8.282_p08/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire/surefirebooter3735476909762126917.jar /home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire 2021-05-08T15-46-01_581-jvmRun1 surefire3878792872084691274tmp surefire_08216853708816162697tmp"/>
+    <property name="sun.java.command" value="/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire/surefirebooter1012535635737531538.jar /home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire 2021-05-08T16-09-46_755-jvmRun1 surefire6992887186404721506tmp surefire_02875353208075064828tmp"/>
     <property name="surefire.test.class.path" value="/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/test-classes:/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/classes:/home/leo/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/leo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/leo"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire/surefirebooter3735476909762126917.jar"/>
+    <property name="surefire.real.class.path" value="/home/leo/Docs/School/Tpsit/ThreadCoopNoSync/target/surefire/surefirebooter1012535635737531538.jar"/>
     <property name="sun.boot.class.path" value="/opt/openjdk-bin-8.282_p08/jre/lib/resources.jar:/opt/openjdk-bin-8.282_p08/jre/lib/rt.jar:/opt/openjdk-bin-8.282_p08/jre/lib/sunrsasign.jar:/opt/openjdk-bin-8.282_p08/jre/lib/jsse.jar:/opt/openjdk-bin-8.282_p08/jre/lib/jce.jar:/opt/openjdk-bin-8.282_p08/jre/lib/charsets.jar:/opt/openjdk-bin-8.282_p08/jre/lib/jfr.jar:/opt/openjdk-bin-8.282_p08/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_282-b08"/>
@@ -59,5 +59,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="Main.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="Main.AppTest" time="0.001"/>
 </testsuite>

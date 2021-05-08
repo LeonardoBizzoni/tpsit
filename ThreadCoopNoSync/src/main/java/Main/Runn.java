@@ -18,11 +18,6 @@ public class Runn implements Runnable {
         try {
             Thread.sleep(ThreadLocalRandom.current().nextInt(1000, 3000));
             arr[i] = letter;
-
-            for (String s : arr) {
-                System.out.print(s + " ");
-            }
-            System.out.println();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
