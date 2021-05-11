@@ -1,0 +1,11 @@
+public class Stampa implements Runnable {
+
+    public Stampa() {
+    }
+
+    @Override
+    public void run() {
+        System.out.println(Thread.currentThread().getName());
+    }
+    
+}
